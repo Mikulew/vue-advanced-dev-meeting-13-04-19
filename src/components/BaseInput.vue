@@ -22,7 +22,6 @@ export default {
     computed: {
         checkId() {
             if (this.label === undefined || !this.label) {
-                console.log(this.id);
                 return this.id = Math.random();
             }
             return this.id = this.label;
