@@ -1,3 +1,17 @@
 <template>
-    <h1>BaseButton</h1>
+    <button class="btn btn-primary mx-1" :disabled="loading">
+        BaseButton
+    </button>
 </template>
+
+<script>
+export default {
+    props: {
+        loading: {
+            type: Boolean,
+            required: false,
+            default: false,
+        },
+    },
+}
+</script>

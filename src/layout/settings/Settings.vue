@@ -1,7 +1,8 @@
 <template>
     <div>
         <h1>Settings</h1>
-        <BaseButton />
+        <BaseButton :loading="false" @click="logChange()" />
+        <BaseButton :loading="true" @click="logChange()" />
         <BaseInput />
     </div>
 </template>
@@ -15,5 +16,10 @@ export default {
         BaseButton,
         BaseInput,
     },
+    mathods: {
+        logChange() {
+            console.log('logChange');
+        }
+    }
 }
 </script>
