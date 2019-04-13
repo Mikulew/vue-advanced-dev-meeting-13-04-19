@@ -1,9 +1,13 @@
 <template>
-    <div>
+    <div class="row">
         <h1>Settings</h1>
-        <BaseButton :loading="false" @click="logChange()" />
-        <BaseButton :loading="true" @click="logChange()" />
-        <BaseInput label="test" />
+        <div class="col-12">
+            <BaseButton :loading="false" @click="logChange()" />
+            <BaseButton :loading="true" @click="logChange()" />
+        </div>
+        <div class="col-12 mt-3">
+            <BaseInput label="test" />
+        </div>
     </div>
 </template>
 
