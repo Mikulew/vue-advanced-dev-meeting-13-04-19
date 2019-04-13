@@ -1,7 +1,7 @@
-import Home from '../../components/home/Home.vue';
-import Vote from '../../components/vote/Vote.vue';
-import Score from '../../components/score/Score.vue';
-import Settings from '../../components/settings/Settings.vue';
+import Home from '@/layout/home/Home.vue';
+import Vote from '@/layout/vote/Vote.vue';
+import Score from '@/layout/score/Score.vue';
+import Settings from '@/layout/settings/Settings.vue';
 
 export default [
     {
