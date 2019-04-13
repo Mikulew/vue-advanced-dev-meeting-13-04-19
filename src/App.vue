@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navigation />
-    <router-view :test="'test'" />
+    <router-view />
   </div>
 </template>
 

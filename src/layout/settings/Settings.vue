@@ -3,7 +3,7 @@
         <h1>Settings</h1>
         <BaseButton :loading="false" @click="logChange()" />
         <BaseButton :loading="true" @click="logChange()" />
-        <BaseInput />
+        <BaseInput label="test" />
     </div>
 </template>
 
