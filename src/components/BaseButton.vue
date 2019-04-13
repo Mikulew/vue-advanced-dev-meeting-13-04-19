@@ -1,6 +1,6 @@
 <template>
     <button class="btn btn-primary mx-1" :disabled="loading">
-        BaseButton
+        <slot></slot>
     </button>
 </template>
 
