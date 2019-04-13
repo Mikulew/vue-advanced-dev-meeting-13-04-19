@@ -10,7 +10,7 @@
             </BaseButton>
         </div>
         <div class="col-12 mt-3">
-            <BaseInput label="test" />
+            <BaseInput label="test" @input="logInput()" />
         </div>
     </div>
 </template>
@@ -27,6 +27,9 @@ export default {
     mathods: {
         logChange() {
             console.log('logChange');
+        },
+        logInput() {
+            console.log('logInput');
         }
     }
 }
