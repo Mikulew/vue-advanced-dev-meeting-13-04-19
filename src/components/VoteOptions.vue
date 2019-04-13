@@ -8,7 +8,7 @@
 export default {
     props: {
         options: {
-            type: Object,
+            type: Array,
             required: false,
             default: () => ([
                 {
