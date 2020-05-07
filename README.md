@@ -1,29 +1,3 @@
-# vue-advanced-dev-meeting-13-04-19
+This is a training project and this is used for consolidating programming concepts or technologies.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Projects that I can show off are in the "pinned" tab on my profile.
