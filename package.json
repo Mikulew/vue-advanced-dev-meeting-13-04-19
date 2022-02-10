@@ -11,7 +11,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.18",
     "core-js": "^2.6.5",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.4",
     "vuelidate": "^0.7.4",
